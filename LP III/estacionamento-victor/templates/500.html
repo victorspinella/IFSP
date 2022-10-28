@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<h3> Sua requisição não pode ser atendida no momento, tente mais tarde </h3>
+
+se o erro persistir entre em contato com o administrador da rede e informe o código de erro:
+
+    {% if msg_erro %}
+        <strong> {{ msg_erro }} </strong>
+    {% else %}
+        500
+    {% endif %}
+
+{% endblock %}

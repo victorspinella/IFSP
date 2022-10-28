@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block extrahead %}
+    {% if calendario %}
+       {{ form.media }}
+    {% endif %}
+{% endblock %}
+
+{% block main %}
+<h3>{{ titulo}}</h3>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form | crispy }}
+        <button type="submit">{{ stringBotao }}</button>
+        <button onclick="location.href='/'"type="button">Cancelar</button>
+    </form>
+
+
+{% endblock %}
