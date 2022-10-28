@@ -1,0 +1,106 @@
+/*.texto1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(66, 135, 245);
+  text-align: justify;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-indent: 50px;
+  letter-spacing: 2px;
+}*/
+
+.background {
+  flex: 1;
+  background-color: #d3deda;
+  border-radius: 20px;
+  border: 2px solid;
+  padding: 20px 20px 20px 20px;
+}
+
+.titulo {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+.cabecalho {
+  text-align: justify;
+}
+
+.img_farol {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+
+.img_farol img {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 50%;
+}
+
+.texto1 {
+  /*display: flex;
+  flex-direction: row;
+  align-items: flex-start;*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+
+}
+
+.texto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+	margin: 10px;
+	padding: 0 20px;
+	font-size: 12px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-family: 'Passions Conflict', cursive;
+  text-align: justify;
+}
+
+.texto3 {
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.developers {
+  display: flex;
+  flex-flow: column ;
+  align-items: flex-end;
+}
+
+/*.chrome {
+  display: flex;
+  flex-direction:row-reverse;
+  font-family: 'Patrick Hand', cursive;
+}
+*/
+
+.chrome_text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: 'Varela Round', sans-serif;
+}
+
